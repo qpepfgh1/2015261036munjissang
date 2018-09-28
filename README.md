@@ -4,7 +4,7 @@
 1. 헤더(Headers)
 * 큰제목 : 문서 제목
 <pre>
-  <code> 문서 제목 </br>
+  <code> 문서 제목
          ======== 
  </code>
 </pre>
