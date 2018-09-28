@@ -1,7 +1,7 @@
 # GitHub
 # Markdown 문법 정리  2015261036 문지상
 
-1. 헤더(Headers)
+###1. 헤더(Headers)
 * 큰 제목 : 문서 제목
 <pre>
   <code>
