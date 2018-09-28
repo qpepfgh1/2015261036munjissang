@@ -1,5 +1,4 @@
-# GitHub
-# Markdown 문법 정리  2015261036 문지상
+# GitHub Markdown 문법 정리  2015261036 문지상
 
 ### 1. 헤더(Headers)
 <br>
