@@ -202,9 +202,13 @@ http://www.google.com<br><br>
 ```[구글](http://www.google.com)```<br><br>
 구글 이라고 적힌 것만 누르면 ```http://www.google.com```으로 이동할 수 있다.<br><br>
 다음은 실행 결과이다.<br><br>
-[구글](http://www.google.com)
+[구글](http://www.google.com)<br><br><br><br>
 
+### 6.이미지
 
+간단한 방식으로는<br><br>
+
+![텍스트](이미지파일경로.jpg)
 
 
 
