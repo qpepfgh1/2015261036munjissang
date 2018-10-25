@@ -189,10 +189,13 @@ BlockQuote 내부에서 다른 문법을 사용할 수 있다.
 ### 5. 링크
 
 간단하게 그냥<br><br>
-http://www.google.com<br><br>
+```http://www.google.com```<br><br>
 이라고 적을 수 있는데 조금 문법적으로 명시하고 싶다면<br><br>
-<http://www.google.com><br><br>
+```<http://www.google.com>```<br><br>
 라고 명시할 수 있다.
+
+결과값은 둘다 동일하다.<br><br>
+http://www.google.com
 
 
 
