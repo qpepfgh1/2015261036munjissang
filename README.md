@@ -195,8 +195,14 @@ BlockQuote 내부에서 다른 문법을 사용할 수 있다.
 라고 명시할 수 있다.
 
 결과값은 둘다 동일하다.<br><br>
-http://www.google.com
 
+http://www.google.com<br><br>
+
+또는 링크에 이름을 붙여줄 수도 있다.<br><br>
+```[구글](http://www.google.com)```<br><br>
+구글 이라고 적힌 것만 누르면 ```http://www.google.com```으로 이동할 수 있다.<br><br>
+다음은 실행 결과이다.<br><br>
+[구글](http://www.google.com)
 
 
 
