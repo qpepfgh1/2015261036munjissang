@@ -199,15 +199,16 @@ Link: [Google][googlelink][googlelink]: https://google.com "Go google"<br>
 
 인라인 링크<br>
 
-systax: [Title](link)<br>
+```systax: [Title](link)<br>```
 
-systax: [Title](link)
+systax: [Google](link)
 
 
 자동연결<br>
+```
 <http://example.com/><br>
 <address@example.com><br><br>
-
+```
 
 <http://example.com/><address@example.com>
 
