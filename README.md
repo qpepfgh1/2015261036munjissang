@@ -188,29 +188,11 @@ BlockQuote 내부에서 다른 문법을 사용할 수 있다.
 
 ### 5. 링크
 
-참조링크<br>
-[link keyword][id]<br>
-[id]: URL "Optional Title here"
-
-Link: [Google][googlelink]<br>
-[googlelink]: https://google.com "Go google"
-
-Link: [Google][googlelink][googlelink]: https://google.com "Go google"<br>
-
-인라인 링크<br>
-
-```systax: [Title](link)<br>```
-
-systax: [Google](link)
-
-
-자동연결<br>
-```
-<http://example.com/><br>
-<address@example.com><br><br>
-```
-
-<http://example.com/><address@example.com>
+간단하게 그냥<br><br>
+http://www.google.com<br><br>
+이라고 적을 수 있는데 조금 문법적으로 명시하고 싶다면<br><br>
+<http://www.google.com><br><br>
+라고 명시할 수 있다.
 
 
 
