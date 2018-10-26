@@ -223,4 +223,12 @@ http://www.google.com<br><br>
 ![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)<br><br>
 ![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg "소녀")<br><br>
 
+한가지 더! 링크와 이미지를 합치는 방법이 있다.<br><br>
 
+```[![텍스트](이미지URL 이나 경로)](링크URL)```<br><br>
+```[![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)](http://www.google.com)```<br><br>
+
+
+방식으로 사용한다. 아래 이미지를 누르면 ```http:www.google.com``` 으로 이동하는것을 확인할 수 있다.<br><br>
+
+[![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)](http://www.google.com)
