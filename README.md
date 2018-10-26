@@ -208,7 +208,7 @@ http://www.google.com<br><br>
 
 간단한 방식으로는<br><br>
 
-![텍스트](C:\Users\jisang\Desktop/.jpg)
+![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)
 
 
 
