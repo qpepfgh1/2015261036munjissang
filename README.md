@@ -221,6 +221,6 @@ http://www.google.com<br><br>
 
 방식으로 사용하면 이미지에 커서를 올렸을 때 "이미지이름"이 보이게 된다 다음 두 사진을 비교해보면 알 수 있다.<br><br>
 ![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)<br><br>
-![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340 "소녀".jpg)<br><br>
+![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg "소녀")<br><br>
 
 
