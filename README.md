@@ -207,8 +207,12 @@ http://www.google.com<br><br>
 ### 6.이미지
 
 간단한 방식으로는<br><br>
+```![텍스트](이미지주소.jpg)```<br><br>
+```![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)```<br><br>
 
-![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)
+라고 적으면 
 
+![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)<br><br>
 
+라는 결과를 얻을 수 있다.
 
