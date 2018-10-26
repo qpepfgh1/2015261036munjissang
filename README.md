@@ -208,7 +208,7 @@ http://www.google.com<br><br>
 
 간단한 방식으로는<br><br>
 
-![텍스트](이미지파일경로.jpg)
+![텍스트](C:\Users\jisang\Desktop/.jpg)
 
 
 
