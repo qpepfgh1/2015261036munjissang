@@ -212,7 +212,7 @@ http://www.google.com<br><br>
 
 라고 적으면 
 
-![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)<br><br>
+![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340)<br><br>
 
 라는 결과를 얻을 수 있다. 여기서 [텍스트]라고 되어있는 부분은 이미지를 대체하는 단어나 문장이다. 이미지가 들어갈 자리를 잡아준다고 할 수 있다.또한 한가지 방식이 더 있다.<br><br>
 
@@ -220,7 +220,7 @@ http://www.google.com<br><br>
 ```![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340 "소녀")```<br><br>
 
 방식으로 사용하면 이미지에 커서를 올렸을 때 "이미지이름"이 보이게 된다 다음 두 사진을 비교해보면 알 수 있다.<br><br>
-![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340.jpg)<br><br>
+![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340)<br><br>
 ![텍스트](https://cdn.pixabay.com/photo/2018/10/18/19/02/woman-3757184__340 "소녀")<br><br>
 
 
