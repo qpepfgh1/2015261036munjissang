@@ -12,10 +12,60 @@
 
 <br><br>
 
-저장소별 사용자명, 이메일 구성하기<br><br>
+저장소별 사용자명, 이메일 구성하기<br>
     
     gitconfig user.name "Your name"
     git config user.email "Your email address"    
+<br><br>
+전역 설정 정보 조회<br>
+    
+    git config --global --list    
+<br><br>
+저장소별 설정 정보 조회<br>
+    
+    git config --list    
+<br><br>
+Git의 출력결과 색상 활성화하기<br>
+    
+    git config --global color.ui "auto"    
+<br><br>
+새로운 저장소 초기화하기<br>
+    
+    mkdir /path/newDir
+    cd /path/newDir
+    git init    
+<br><br>
+저장소 복제하기<br>
+    
+    git clone <저장소 url>    
+<br><br>
+새로운 원격 저장소 추가하기<br>
+    
+    git remote add <원격 저장소> <저장소 url>    
+<br><br><br>
+
+
+### 2. 기본적인 사용법
+<br><br>
+아래 명령어에서 []는 선택적인 매개변수를 의미한다.<br>
+새로운 파일을 추가하거나 존재하는 파일 스테이징하고 커밋하기<br>
+    
+    git add <파일>
+    git commit -m "<메시지>"    
+<br><br>
+파일의 일부를 스테이징하기<br>
+    
+    git add -p [<파일> [<파일> [기타 파일들...]]]    
+<br><br>
+add 명령에서 Git 대화 모드를 사용하여 파일 추가하기<br>
+    
+    git add -i    
+<br><br>
+수정되고 추적되는 파일의 변경 사항 스테이징하기<br>
+    
+    git add -i    
+<br><br>
+수정되고 추적되는 파일의 변경사항 스테이징하기<br>
 
 
 
@@ -23,8 +73,7 @@
 
 
 
-
-
+<br><br><br><br>
 ## Markdown 문법 정리
 
 ### 1. 헤더(Headers)
