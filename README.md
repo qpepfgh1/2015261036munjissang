@@ -1,4 +1,5 @@
-# GitHub Markdown 문법 및 github 명령어 정리  2015261036 문지상
+# GitHub Markdown 문법 및 github 명령어 정리<br>
+# 2015261036 문지상
 
 ## github 명령어 정리
 
@@ -52,21 +53,116 @@ Git의 출력결과 색상 활성화하기<br>
     
     git add <파일>
     git commit -m "<메시지>"    
-<br><br>
-파일의 일부를 스테이징하기<br>
-    
-    git add -p [<파일> [<파일> [기타 파일들...]]]    
-<br><br>
-add 명령에서 Git 대화 모드를 사용하여 파일 추가하기<br>
-    
-    git add -i    
-<br><br>
-수정되고 추적되는 파일의 변경 사항 스테이징하기<br>
-    
-    git add -i    
-<br><br>
-수정되고 추적되는 파일의 변경사항 스테이징하기<br>
+<br><br><br>
 
+### 3. Branch
+<br>
+<br>
+master 브랜치를 특정 커밋으로 옮기기
+<br>
+    
+    git checkout better_branch
+    git merge --strategy=ours master    # keep the content of this branch, but record a merge
+    git checkout master
+    git merge better_branch            # fast-forward master up to the merge    
+<br>
+<br>
+브랜치 목록
+<br>
+    
+    git branch // 로컬
+    git branch -r // 리모트 
+    git branch -a // 로컬, 리모트 포함된 모든 브랜치 보기    
+<br>
+<br>
+브랜치 생성
+<br>
+    
+    git branch new master // master -> new 브랜치 생성
+    git push origin new // new 브랜치를 리모트로 보내기
+<br><br>
+브랜치 삭제
+<br>
+    
+    git branch -D {삭제할 브랜치 명} // local
+    git push origin :{the_remote_branch} // remote
+<br><br>
+빈 브랜치 생성
+<br>
+    
+    git checkout --orphan {새로운 브랜치 명}
+    git commit -a // 커밋해야 새로운 브랜치 생성됨
+    git checkout -b new-branch // 브랜치 생성과 동시에 체크아웃
+<br><br>
+리모트 브랜치 가져오기
+<br>
+    
+    git checkout -t origin/{가져올 브랜치명} // ref
+<br><br>
+브랜치 이름 변경
+<br>
+    
+    git branch -m {new name} // ref
+<br><br><br>
+
+### 4. Tag
+<br><br>
+태그 생성
+<br>
+    
+    git tag -a {tag name} -m {tag message} {commit hash}
+    git tag {tag name} {tag name} -f -m "{new message}" // Edit tag message
+<br><br>
+태그 삭제
+<br>
+    
+    git tag -d {tag name}
+    git push origin :tags/{tag name} // remote
+<br><br>
+태그 푸시
+<br>
+    
+    git push origin --tags
+    git push origin {tag name}
+    git push --tags
+<br><br><br>
+
+### 기타
+<br><br>
+파일 삭제
+<br>
+    
+    git rm --cached --ignore-unmatch [삭제할 파일명]
+<br><br>
+
+히스토리 삭제
+<br>
+목적 : 패스워드, 아이디 같은 비공개 정보가 담긴 파일을 실수로 올렸을 때 삭제하는 방법이다. (history에서도 해당 파일만 삭제)
+<br>
+    
+    git clone [url] # 소스 다운로드
+    cd [foler_name] # 해당 폴더 이동
+    git filter-branch --index-filter 'git rm --cached --ignore-unmatch [삭제할 파일명]' --prune-empty -- --all # 모든 히스토리에서 해당 파일 삭제
+    git push origin master --force # 서버로 전송
+<br><br>
+히스토리에서 폴더 삭제
+<br>
+    
+    git filter-branch --tree-filter 'rm -rf vendor/gems' HEAD
+<br><br>
+리모트 주소 추가하여 로컬에 싱크하기
+<br>
+    
+    git remote add upstream {리모트 주소}
+    git pull upstream {브랜치명}
+<br><br>
+
+최적화
+<br>
+    
+    git gc
+    git gc --aggressive
+<br><br><br>
 
 
 
