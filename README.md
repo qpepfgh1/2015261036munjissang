@@ -1,4 +1,31 @@
-# GitHub Markdown 문법 정리  2015261036 문지상
+# GitHub Markdown 문법 및 github 명령어 정리  2015261036 문지상
+
+## github 명령어 정리
+
+### 1. 설정과 초기화
+<br>
+전역 사용자명, 이메일 구성하기<br>
+    
+    git config --global user.name "Your name"
+    git config --global user.email "Your email address"     
+
+
+<br><br>
+
+저장소별 사용자명, 이메일 구성하기<br><br>
+    
+    gitconfig user.name "Your name"
+    git config user.email "Your email address"    
+
+
+
+
+
+
+
+
+
+## Markdown 문법 정리
 
 ### 1. 헤더(Headers)
 <br>
